@@ -5,8 +5,8 @@ class jdk{
   }
 }
 class elasticsearch ( 
-  $es_version = "0.90.10"
-  $es_download_root = "https://download.elasticsearch.org/elasticsearch/elasticsearch/"
+  $es_version = "0.90.10",
+  $es_download_root = "https://download.elasticsearch.org/elasticsearch/elasticsearch/",
   $es_install_location = "/usr/local/share"
 ){
   require jdk
